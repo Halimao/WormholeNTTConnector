@@ -1,0 +1,1 @@
+import{aC as e}from"./index-BGLdF6jF.js";function o(){if(typeof WebSocket<"u")return WebSocket;if(typeof e.global.WebSocket<"u")return e.global.WebSocket;if(typeof window.WebSocket<"u")return window.WebSocket;if(typeof self.WebSocket<"u")return self.WebSocket;throw new Error("`WebSocket` is not supported in this environment")}const r=o();export{r as WebSocket};
